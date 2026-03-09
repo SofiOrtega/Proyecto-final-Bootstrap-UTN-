@@ -1,6 +1,6 @@
 body { font-family: 'Poppins', sans-serif;}
 h1, h2, .navbar-brand { font-family: 'Playfair Display', serif; }
-.hero{background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../imagenes/cosmetologist-applying-mask-face-client-beauty-salon.jpg') center/cover no-repeat;}
+.hero{background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('./imagenes/cosmetologist-applying-mask-face-client-beauty-salon.jpg') center/cover no-repeat;}
 .navbar-brand img {max-width: 150px;height: auto;}
 .logo-footer-img{max-width: 150px}
 /*RESPONSIVE DESIGN*/
