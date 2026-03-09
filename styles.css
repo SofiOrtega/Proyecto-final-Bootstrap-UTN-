@@ -1,0 +1,20 @@
+body { font-family: 'Poppins', sans-serif;}
+h1, h2, .navbar-brand { font-family: 'Playfair Display', serif; }
+.hero{background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../imagenes/cosmetologist-applying-mask-face-client-beauty-salon.jpg') center/cover no-repeat;}
+.navbar-brand img {max-width: 150px;height: auto;}
+/*RESPONSIVE DESIGN*/
+@media (min-width: 992px) {.nav-link { padding-right: 20px !important; padding-left: 20px !important;}}
+.img-fluid{max-height: 600px; width: 100%; object-fit: cover;}
+.btn-custom {border-width: 2px; border-radius: 0; letter-spacing: 2px; transition: all 0.3s ease;}
+.btn-custom:hover {background-color: #000; color: #fff;}
+.accordion-button:not(.collapsed) {background-color: #fdf2f2 !important; color: #000 !important;}
+.accordion-button:focus {box-shadow: none !important; border-color: #000 !important;}
+.accordion-item {border-radius: 0 !important;}
+.card-equipo img {width: 150px; height: 150px; object-fit: cover; object-position: center;}
+@media (max-width: 576px) {.card-equipo img {width: 150px; height: 150px;}}
+.navbar-toggler{border: none !important;}
+.carousel-inner img {height: 600px; object-fit: cover;}
+@media (max-width: 768px) {.carousel-inner img {height: 300px;}}
+textarea {resize: none !important; }
+.form-control {background-color: #f8f9fa;border: 1px solid red;}
+@media (max-width: 576px) {h1 {font-size: 2rem !important;} .parrafo{font-size: 1rem !important; padding: 5px !important;}}
